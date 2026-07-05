@@ -5,27 +5,64 @@
     justify-content: space-between;
     align-items: center;
     width: 800px;
-    padding: 12px;
-    margin-top: 250px;
+    padding: 120px;
+    margin-top: 10px ;
+    margin-left: 350px;
 }
 .box {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     background-color: lightgray;
     border: 2px solid black;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    
+
 }
 
 .red {
     background-color: red;
 }
-.circle{
-    border-radius: 50%;
+.blue {
+    background-color:blue;
 }
+.green {
+    background-color: green;
+}
+.yellow {
+    background-color: yellow;
+}
+
 
 header{
     text-align: center;
     background-color: rgb(243, 241, 238);
     margin-top: 0px;
     padding: 10px;
+}
+form{
+    /* width: 200px; */
+    height: 40px;
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* justify-content: space-around; */
+    /* align-items: center; */
+    margin-left: 700px;
+    margin-top: -40px;
+    gap: 10px;
+}
+input{
+    width: 220px;
+    height: 35px;
+    font-size: 16px;
+}
+button {
+    width: 90px;
+    height: 40px;
+    font-size: 16px;
+
+    cursor: pointer;
 }
