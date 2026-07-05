@@ -2,12 +2,12 @@
     background-color: rgb(252, 253, 253);
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     width: 800px;
     padding: 120px;
     margin-top: 10px ;
-    margin-left: 350px;
+    margin-left: 150px;
 }
 .box {
     width: 150px;
@@ -50,7 +50,7 @@ form{
     /* flex-wrap: wrap; */
     /* justify-content: space-around; */
     /* align-items: center; */
-    margin-left: 700px;
+    margin-left: 500px;
     margin-top: -40px;
     gap: 10px;
 }
